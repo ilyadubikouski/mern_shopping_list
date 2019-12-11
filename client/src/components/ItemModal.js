@@ -35,7 +35,7 @@ class ItemModal extends Component {
 
   onSubmit = e => {
     e.preventDefault();
-
+ 
     const newItem = {
       name: this.state.name
     };
